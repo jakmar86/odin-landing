@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    background: #1F2937;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 200px;
+    margin-bottom: 16px;
+}
+
+.links {
+    font_size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+    
+}
+
+li {
+    padding: 8px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    font-size: 18px;
+}
