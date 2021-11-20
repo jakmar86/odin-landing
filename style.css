@@ -23,12 +23,12 @@ body {
 .logo {
     width: 80px;
     height: 80px;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 .links {
     display: flex;
-    margin-right: 200px;
+    margin-right: 250px;
 }
 
 .links a {
@@ -53,16 +53,29 @@ body {
     flex-basis: 400px;
     flex-direction: column;
     text-align: left;
-    margin-left: 150px;
-    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-bottom: 20px;
     font-size: 24px;
 }
+
+.herotext h1 {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.herotext p {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 18px;
+    font-weight:300;
+}
+
 
 .heroimg img {
     width: 400px;
     height: 250px;
-    margin-right: 150px;
-    margin-bottom: 50px;
+    margin-right: 200px;
+    margin-bottom: 20px;
     border-radius: 4px;
 }
 
@@ -130,11 +143,43 @@ body {
     margin: 50px 200px 50px 200px;
     border-radius: 8px;
     color: #F9FAF8;
+    justify-content: space-between;
 }
 
 .sign-text {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    margin: 0 0 0 100px;
+    justify-content: center;
+    margin: 0 0 0 300px;
+}
+
+.sign-text h3 {
+    font-size: 24px;
+    margin: 0 0 0 0;
+    
+}
+
+.sign-text p {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+button {
+    background-color: #3882f6;
+    border-color: #F9FAF8;
+    margin: 50px 400px 50px 0;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 10px;
+    color: #E5E7EB;
+    font-size: 10px;
 }
